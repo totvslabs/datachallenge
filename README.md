@@ -4,31 +4,19 @@ The purpose of this challenge is to let you demonstrate the way you think and wo
 
 The dataset we are providing contains the orders made by customers in one of our applications. Here’s the description of each column:
 
-•    customer_code: unique id of a customer;
-
-•    branch_id: the branch id where this order was made;
-
-•    sales_channel: the sales channel this order was made;
-
-•    seller_code: seller that made this order;
-
-•    register_date: date of the order;
-
-•    total_price: total price of the order (sum of all items);
-
-•    order_id: id of this order;
-
-•    quantity: quantity of items, given by item_code, were bought;
-
-•    item_total_price: total price of items, i.e., quantity* price;
-
-•    unit_price: unit price of this item;
-
-•    group_code: which group this customer belongs;
-
-•    segment_code: segment this client belongs;
-
-•    is_churn: if this client is set as a churn.
+* customer_code: unique id of a customer;
+* branch_id: the branch id where this order was made;
+* sales_channel: the sales channel this order was made;
+* seller_code: seller that made this order;
+* register_date: date of the order;
+* total_price: total price of the order (sum of all items);
+* order_id: id of this order;
+* quantity: quantity of items, given by item_code, were bought;
+* item_total_price: total price of items, i.e., quantity* price;
+* unit_price: unit price of this item;
+* group_code: which group this customer belongs;
+1* segment_code: segment this client belongs;
+* is_churn: if this client is set as a churn.
 
 <b>Question 1 (10 Points)</b>
 List as many use cases for the dataset as possible.
