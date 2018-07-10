@@ -19,16 +19,18 @@ The [dataset](https://github.com/TOTVS/datachallenge/blob/master/challenge.zip) 
 * is_churn: if this client is set as a churn.
 
 <b>Question 1 (10 Points)</b>
-List as many use cases for the dataset as possible.
+<br>List as many use cases for the dataset as possible.
 
 <b>Question 2 (10 Points)</b>
-Pick one of the use cases you listed in question 1 and describe how building a statistical model based on the dataset could best be used to improve the business this data comes from.
+<br>Pick one of the use cases you listed in question 1 and describe how building a statistical model based on the dataset could best be used to improve the business this data comes from.
 
 <b>Question 3 (20 Points)</b>
-Implement the model you described in question 2, preferably in Python. The code has to retrieve the data, train and test a statistical model, and report relevant performance criteria. 
+<br>Implement the model you described in question 2, preferably in Python. The code has to retrieve the data, train and test a statistical model, and report relevant performance criteria. 
 Ideally, we should be able to replicate your analysis from your submitted source-code, so please explicit the versions of the tools and packages you are using.
 
 <b>Question 4 (60 Points)</b>
-A. Explain each and every of your design choices, you can use jupyter notebooks. (e.g., preprocessing, model selection, hyper parameters, evaluation criteria). Compare and contrast your choices with alternative methodologies. 
-B. Describe how you would improve the model in Question 3 if you had more time.
+<br>A. Explain each and every of your design choices, you can use jupyter notebooks. (e.g., preprocessing, model selection, hyper parameters, evaluation criteria). Compare and contrast your choices with alternative methodologies. 
+<br>B. Describe how you would improve the model in Question 3 if you had more time.
 
+You can find the dataset for this challenge in the following url:
+https://github.com/TOTVS/datachallenge/raw/master/challenge.zip
