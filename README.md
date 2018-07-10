@@ -15,7 +15,7 @@ The [dataset](https://github.com/TOTVS/datachallenge/blob/master/challenge.zip) 
 * item_total_price: total price of items, i.e., quantity* price;
 * unit_price: unit price of this item;
 * group_code: which group this customer belongs;
-1* segment_code: segment this client belongs;
+* segment_code: segment this client belongs;
 * is_churn: if this client is set as a churn.
 
 <b>Question 1 (10 Points)</b>
