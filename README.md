@@ -2,7 +2,7 @@
 
 The purpose of this challenge is to let you demonstrate the way you think and work. You shouldn’t spend more than 8 hours to complete the exercise.
 
-The [dataset](https://github.com/TOTVS/datachallenge/blob/master/challenge.zip) we are providing contains the orders made by customers in one of our applications. Here’s the description of each column:
+The [dataset](https://github.com/TOTVS/datachallenge/raw/master/challenge.zip) we are providing contains the orders made by customers in one of our applications. Here’s the description of each column:
 
 * customer_code: unique id of a customer;
 * branch_id: the branch id where this order was made;
