@@ -2,7 +2,7 @@
 
 The purpose of this challenge is to let you demonstrate the way you think and work. You shouldn’t spend more than 8 hours to complete the exercise.
 
-The [dataset](https://github.com/TOTVS/datachallenge/raw/master/challenge.zip) we are providing contains the orders made by customers in one of our applications. Here’s the description of each column:
+The [dataset](https://github.com/totvslabs/datachallenge/raw/master/challenge.zip) we are providing contains the orders made by customers in one of our applications. Here’s the description of each column:
 
 * customer_code: unique id of a customer;
 * branch_id: the branch id where this order was made;
@@ -33,4 +33,4 @@ Ideally, we should be able to replicate your analysis from your submitted source
 <br>B. Describe how you would improve the model in Question 3 if you had more time.
 
 You can find the dataset for this challenge in the following url:
-https://github.com/TOTVS/datachallenge/raw/master/challenge.zip
+https://github.com/totvslabs/datachallenge/raw/master/challenge.zip
