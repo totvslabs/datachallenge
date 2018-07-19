@@ -16,7 +16,7 @@ The [dataset](https://github.com/totvslabs/datachallenge/raw/master/challenge.zi
 * unit_price: unit price of this item;
 * group_code: which group this customer belongs;
 * segment_code: segment this client belongs;
-* is_churn: if this client is set as a churn.
+* is_churn: True, if we believe the client will not come back.
 
 <b>Question 1 (10 Points)</b>
 <br>List as many use cases for the dataset as possible.
