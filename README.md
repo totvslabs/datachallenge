@@ -10,13 +10,14 @@ The [dataset](https://github.com/totvslabs/datachallenge/raw/master/challenge.zi
 * seller_code: seller that made this order;
 * register_date: date of the order;
 * total_price: total price of the order (sum of all items);
-* order_id: id of this order;
+* order_id: id of this order. A order is formed by a set of items;
+* item_code: code of the item;
 * quantity: quantity of items, given by item_code, were bought;
 * item_total_price: total price of items, i.e., quantity* price;
 * unit_price: unit price of this item;
 * group_code: which group this customer belongs;
 * segment_code: segment this client belongs;
-* is_churn: True, if we believe the client will not come back.
+* is_churn: True, if we believe the client will not come back. (for a `customer_code` this values is always the same)
 
 <b>Question 1 (10 Points)</b>
 <br>List as many use cases for the dataset as possible.
