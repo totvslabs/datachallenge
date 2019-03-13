@@ -15,7 +15,7 @@ The purpose of this challenge is to let you demonstrate the way you think and wo
 * unit_price: unit price of this item;
 * group_code: which group this customer belongs;
 * segment_code: segment this client belongs;
-* is_churn: True, if we believe the client will not come back. (for a `customer_code` this values is always the same)
+* is_churn: True, if we believe the client will not come back. For a given `customer_code` this value is always the same, it means that "today" (the day you are doing this test) this client is a churn.
 
 There are many possible use cases for this data, e.g., product recommendation, churn analysis, sale forecasting, etc.  Pick one use case and build a model for this case. We want to test your skills in data manipulation, cleaning, and predictive modeling, so, please explain each of your design choices, you can use jupyter notebooks for all your exploration and modeling. (e.g., EDA, preprocessing, model selection, hyperparameters, evaluation criteria, etc. )
 
