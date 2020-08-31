@@ -1,7 +1,7 @@
 <b>TOTVS Labs - Data Science Challenge</b>
 
-The purpose of this challenge is to let you demonstrate the way you think and work. The [dataset](https://github.com/totvslabs/datachallenge/raw/master/challenge.zip) we are providing contains the orders made by customers in one of our applications. Here’s the description of each column:
-
+The purpose of this challenge is to let you demonstrate the way you think and work. The [dataset](https://github.com/totvslabs/datachallenge/raw/master/challenge.zip) we are providing two tables. 
+1. `orders.json` contains the orders made by customers in one of our applications between '2008-01-04' and '2018-07-08'. Here's the description of each column:
 * customer_code: unique id of a customer;
 * branch_id: the branch id where this order was made;
 * sales_channel: the sales channel this order was made;
@@ -15,13 +15,13 @@ The purpose of this challenge is to let you demonstrate the way you think and wo
 * unit_price: unit price of this item;
 * group_code: which group this customer belongs;
 * segment_code: segment this client belongs;
-* is_churn: True, if we believe the client will not come back. For a given `customer_code` this value is always the same, it means that "today" (the day you are doing this test) this client is a churn.
-
+Attention:
+- The primary key for this table is: `order_id` + `item_code`.
+2. `is_churn.json` contains the 2 columns
+* customer_code: unique id of a customer;
+* is_churn: If the client is a churn on 2018-08-01.  
 There are many possible use cases for this data, e.g., product recommendation, churn analysis, sale forecasting, etc.  Pick one use case and build a model for this case. We want to test your skills in data manipulation, cleaning, and predictive modeling, so, please explain each of your design choices, you can use jupyter notebooks for all your exploration and modeling. (e.g., EDA, preprocessing, model selection, hyperparameters, evaluation criteria, etc. )
-
-You shouldn’t spend more than 5 hours to complete the exercise.
-
+You shouldn't spend more than 5 hours to complete the exercise.
 You can find the dataset for this challenge in the following url:
 https://github.com/totvslabs/datachallenge/raw/master/challenge.zip
-
 PS: Ideally, we should be able to replicate your analysis from your submitted source-code, so please explicit the versions of the tools and packages you are using.
