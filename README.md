@@ -1,6 +1,7 @@
 <b>TOTVS Labs - Data Science Challenge</b>
 
-The purpose of this challenge is to let you demonstrate the way you think and work. The [dataset](https://github.com/totvslabs/datachallenge/raw/master/challenge.zip) we are providing two tables. 
+The purpose of this challenge is to let you demonstrate the way you think and work. The [dataset](https://github.com/totvslabs/datachallenge/raw/master/challenge.zip) we are providing has two tables: 
+
 1. `orders.json` contains the orders made by customers in one of our applications between '2008-01-04' and '2018-07-08'. Here's the description of each column:
     * `customer_code`: unique id of a customer;
     * `branch_id`: the branch id where this order was made;
@@ -22,7 +23,7 @@ The purpose of this challenge is to let you demonstrate the way you think and wo
     
 Notes:
 - The primary key of the orders.json table is: `order_id` + `item_code`.
-- `is_churn` was recorded for all customers on 2018-08-01 irrespective of when they actually churned. For example, let us say, Customer1 churns in 2010 and Customer2 churns in 2016. For both customers, the record of `is_churn=1(yes)` was made on 2018-08-01. 
+- `is_churn` was recorded for all customers on 2018-08-01 irrespective of when they actually churned prior to 2018-08-01. For example, let us say, Customer1 churns in 2010 and Customer2 churns in 2016. For both customers, the record of `is_churn=1(yes)` was made on 2018-08-01. 
 
 There are many possible use cases for this dataset. For example, product recommendation, churn analysis, sale forecasting, etc.  Pick one use case and build a model for this case. We want to test your skills in data manipulation, cleaning, and predictive modeling. So, please explain all your design and analysis choices. You can use jupyter notebooks for all your exploration and modeling (e.g., EDA, preprocessing, model selection, hyperparameters, evaluation criteria, etc.). You shouldn't spend more than 5 hours to complete the exercise.
 
