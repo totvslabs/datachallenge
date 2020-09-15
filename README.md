@@ -30,4 +30,4 @@ There are many possible use cases for this dataset. For example, product recomme
 You can find the dataset for this challenge in the following url:
 https://github.com/totvslabs/datachallenge/raw/master/challenge.zip
 
-PS: Ideally, we should be able to replicate your analysis from your submitted source-code, so please explicit the versions of the tools and packages you are using.
+PS: Ideally, we should be able to replicate your analysis from your submitted source-code, so please explicit the versions of the tools and packages you are using. Please, keep the repository private in your acc and share the a zip-file with the submission. 
