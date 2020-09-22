@@ -20,7 +20,7 @@ The purpose of this challenge is to let you demonstrate the way you think and wo
 2. `is_churn.json` contains the 3 columns
     * `customer_code`: unique id of a customer;
     * `is_churn`: If the client is a churn on 2018-Aug-01.  
-    * `churn_date`: last purchase date. 
+    * `last_purchase_date`: last purchase date. 
     
 Notes:
 - The primary key of the orders.json table is: `order_id` + `item_code`.
