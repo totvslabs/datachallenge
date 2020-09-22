@@ -2,7 +2,7 @@
 
 The purpose of this challenge is to let you demonstrate the way you think and work. The [dataset](https://github.com/totvslabs/datachallenge/raw/master/challenge.zip) we are providing has two tables: 
 
-1. `orders.json` contains the orders made by customers in one of our applications between '2008-Jan-04' and '2018-July-08'. Here's the description of each column:
+1. `orders.json` contains the orders made by customers in one of our applications between '2008-Jan-04' and '2018-July-08'. These customers do not have any contracts or memberships whatsoever with the company and may stop or restart purchasing at will. Here's the description of each column:
     * `customer_code`: unique id of a customer;
     * `branch_id`: the branch id where this order was made;
     * `sales_channel`: the sales channel this order was made;
